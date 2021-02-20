@@ -4,7 +4,7 @@ FROM jupyter/scipy-notebook:latest
 LABEL maintainer="Fernando Silva <fernando.f.silva@outlook.com>"
 
 # Copy all files to app folder
-COPY . /app
+COPY .. /app
 
 # Set working directory
 WORKDIR /app
